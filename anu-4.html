@@ -1,0 +1,279 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Share+Tech|Orbitron:500' rel='stylesheet' type='text/css'>
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'sans-serif';
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: grey;
+  color: lightblue;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  text-align: center;
+  display: none;
+  padding: 100px 20px;
+  height: 200%;
+  color: white;
+  font-family:  "Courier New", Courier, monospace;
+  background: none;
+}
+
+
+#Home {background-color: #0e101a;}
+#About {background-color: #0e101a;}
+#Script {background-color: #0e101a;}
+#Contact {background-color: #0e101a;}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<button class="tablink" onclick="openPage('Home', this, '#0e101a')"id="defaultOpen">Home </button>
+<button class="tablink" onclick="openPage('Script', this, '#0e101a')">Script</button>
+<button class="tablink" onclick="openPage('About', this, '#0e101a')">About</button>
+<button class="tablink" onclick="openPage('Contact', this, '#0e101a')">Contact</button>
+</div>
+
+ <!--home wala part-->
+<div id="Home" class="tabcontent">
+  <h3 id="py">Python</h3>
+  <h1 id="heading">Introduction to python </h1>
+  <h5 id="para">by Anurima, Abhay 2022</h5>
+  <br>
+  <br>
+  <h2 id="heading1"> What is Python? </h2>
+  <p id="para1"> Python is a popular programming language. It was created by Guido van Rossum, and released in 1991. <br><br>
+    It is used for: <br> <br>
+    - web development (back-end), <br>
+    - software development, <br>
+    - game development, <br>
+    - bot development, <br>
+    - system scripting. <br>
+  </p> <br> <br>
+<h2 id="heading2"> What can Python do?</h2>
+<p id="para2">- Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc). <br>
+  - Python has a simple syntax similar to the English language.
+  <br>
+  - Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
+  <br>
+  - Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
+  <br>
+  - Python can be treated in a procedural way, an object-oriented way or a functional way.
+</p> <br><br>
+<h2 id="heading3">Python Syntax compared to other programming languages</h2>
+<p id="para3"> - Python was designed for readability, and has some similarities to the English language with influence from mathematics.
+  <br>
+  - Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
+  <br>
+  - Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose. </p>
+  <br><br>
+  <h2 id="heading4"> Features of Python</h2>
+  <p id="para4">- Easy To Learn and Readable Language<br>
+    - Interpreted Language<br>
+    - Dynamically Typed Language<br>
+    - Open Source And Free<br>
+    - Large Standard Library<br>
+    - High-Level Language<br>
+    - Object Oriented Programming Language<br>
+    - Large Community Support<br>
+    - Platform Independent<br>
+    - Extensible and Embeddable<br>
+    - Graphical User Interface (GUI) Support</p> <br> <br> <br>
+    <footer id="footerhome">
+      <p>  <b>Gmail- abhaykagdiyal@gmail.com; <br> kotharianurima@gmail.com </b> </p>
+    </footer>
+</div>
+
+<style>
+  #heading1 {
+    text-align: left;
+    color: #5a32fc;
+  }
+  #para1 {
+    text-align: left;
+    color: #03cdff;
+  }
+  #heading2 {
+    text-align: left;
+    color: #5a32fc;
+  }
+  #para2 {
+    text-align: left;
+    color: #03cdff;
+  }
+  #heading3 {
+    text-align: left;
+    color: #5a32fc;
+  }
+  #para3 {
+    text-align: left;
+    color: #03cdff;
+  }
+  #heading4 {
+    text-align: left;
+    color: #5a32fc;
+  }
+  #para4 {
+    text-align: left;
+    color: #03cdff;
+  }
+  #para {
+    color: #03edf4;
+  }
+  #py {
+    color: #79fdf9;
+  }
+  #heading {
+    color: #2368fb;
+  }
+  #Home {
+    border-left: 50px;
+    border-right: 50px;
+    border-style: solid;
+    border-color: #0e101a;
+  }
+
+</style>
+
+
+<!--script wala part-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div id="Script" class="tabcontent">
+  <h3 id="py2"> Python </h3>
+  <h1 id="abhay"> 30 Python Scripts </h1>
+  <h5 id="by">by Anurima, Abhay 2022</h5>
+  <br>
+  <br>
+  <h2 id="abhay1"> What are scripts in python? </h2>
+  <p id="anu"> Python scripts are files that contain a sequence of Python commands that are executed by a Python interpreter. They are often used to automate tasks, perform repetitive tasks, or process data.</p>
+  <br> <br>
+  <h2 id="abhay2"> How to create a python script?</h2>
+  <p id="anu1">
+    You don’t need to create a python file to write and run a simple python script from the terminal. You can simply access the python console and run it there directly. To access the python console, open the terminal (Ctrl +Alt + T on ubuntu) and run the ‘python’ or ‘python3’ commands to open Python in interaction mode and execute any script from the terminal. <br> <br> If the script is long, it will need to be written and saved in a python file using any editor. To write the script, you can use any text editor or code editor, such as PyCharm, sublime, Spyder, Visual Studio Code, or any IDE program designed specifically for Python.
+  <br> <br>
+   The python file has the .py extension.
+  <br> <br>
+   Following are a few Sripts for beginners: </p>
+   <br> <br>
+  <h2 id="abhay3"> Random Password Generator </h2>
+  <p id="anu2"> First we need to import random, which is an in-built python module.</p> <br>
+  <img src="imports.jpg" alt="import random" width="1350" height="50" id="kaku">
+</div>
+
+<style>
+  #kaku {
+    align-content: center;
+  }
+  #abhay {
+    text-align: center;
+    color: #2368fb;
+  }
+
+  #py2 {
+    text-align: center;
+    color: #79fdf9;
+  }
+
+  #by {
+    text-align: center;
+    color: #03edf4;
+  }
+
+  #abhay1 {
+    text-align: left;
+    color: #5a32fc;
+  }
+
+  #anu {
+    text-align: left;
+    color: #03cdff;
+  }
+
+  #abhay2 {
+    text-align: left;
+    color: #5a32fc;
+  }
+
+  #anu1 {
+    text-align: left;
+    color: #03cdff;
+  }
+
+  #abhay3 {
+    text-align: left;
+    color: #5a32fc;
+  }
+
+  #anu2 {
+    text-align: left;
+    color: #03cdff;
+  }
+
+  #Script {
+    border-left: 50px;
+    border-right: 50px;
+    border-style: solid;
+    border-color: #0e101a;
+    height: 500%;
+  }
+
+</style>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>nhi batayenge</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Mat krna</p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+ <style>
+ body{
+  background-color: #0e101a;
+ } 
+</style>
+</html> 
